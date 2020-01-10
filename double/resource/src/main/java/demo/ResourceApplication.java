@@ -28,6 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ResourceApplication extends WebSecurityConfigurerAdapter {
 
 	private String message = "Hello World example";
+
 	private List<Change> changes = new ArrayList<>();
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)

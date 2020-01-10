@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class ResourceApplication {
 
 	@RequestMapping("/")
-	public Message home() {
-		return new Message("Hello World");
+	public TextMessage home() {
+		return new TextMessage("Hello World");
 	}
 
 	public static void main(String[] args) {
@@ -24,14 +24,14 @@ public class ResourceApplication {
 
 }
 
-class Message {
+class TextMessage {
 	private String id = UUID.randomUUID().toString();
 	private String content;
 
-	Message() {
+	TextMessage() {
 	}
 
-	public Message(String content) {
+	public TextMessage(String content) {
 		this.content = content;
 	}
 

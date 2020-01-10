@@ -15,11 +15,7 @@ public class ResourceApplication {
 
 	@RequestMapping("/")
 	public Message home() {
-<<<<<<< HEAD
-		return new Message("Hello World");
-=======
-		return new Message("Hello World test ");
->>>>>>> Target commit
+		return new Message("Hello World example");
 	}
 
 	public static void main(String[] args) {

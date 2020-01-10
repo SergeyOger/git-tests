@@ -15,7 +15,7 @@ public class ResourceApplication {
 
 	@RequestMapping("/")
 	public Message home() {
-		return new Message("Hello World");
+		return new Message("Message example test2");
 	}
 
 	public static void main(String[] args) {

@@ -31,8 +31,8 @@ class Message {
 	Message() {
 	}
 
-	public Message(String content) {
-		this.content = content;
+	public Message(String message) {
+		this.content = message;
 	}
 
 	public String getId() {
